@@ -81,9 +81,7 @@ public class Task2 extends JFrame implements ActionListener {
             return "B";
         } else if (percentage >= 60) {
             return "C";
-        } else if (percentage >= 50) {
-            return "D";
-        } else {
+        }  else {
             return "F";
         }
     }
